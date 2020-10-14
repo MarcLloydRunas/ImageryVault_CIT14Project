@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #333;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 200px;
+}
+
+.container > div {
+  cursor: pointer;
+  height: 210px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s ease-in;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: rgb(0,0,0,0);
+  border: none;
+  color: rgb(0,0,0,0.5);
+  border-radius: 5px
+  padding: 100px 100px;
+  font-size: 150px;
+  margin: 5px 5px;
+  opacity: 0.07;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 1}
+
+.container > div:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+.container > div:nth-of-type(1) {
+  grid-column: 1 / 3;
+}
+
+.container > div:nth-of-type(6) {
+  grid-column: 3 / 5;
+}
+
+.container > div:nth-of-type(9) {
+  grid-column: 3 / 5;
+}
+
+.container > div:nth-of-type(10) {
+  grid-column: 1 / 3;
+}
+
+.container > div:nth-of-type(13) {
+  grid-column: 1 / 5;
+}
+
+.container > div:nth-of-type(14) {
+  grid-column: 1 / 3;
+}
+
+.container > div:nth-of-type(15) {
+  grid-column: 3 / 5;
+}
+
+.container > div:nth-of-type(18) {
+  grid-column: 3 / 5;
+}
+
+.wp1 {
+  background: url('../home-display-reduced/wp(1).jpg');
+  background-size: 50% 60%;
+
+}
+
+.wp2 {
+  background: url('../home-display-reduced/wp(2).jpg');
+  background-size: 50% 60%;
+  color: #333;
+}
+
+.wp3 {
+  background: url('../home-display-reduced/wp(3).jpg');
+  background-size: 10% 10%;
+}
+
+.wp4 {
+  background: url('../home-display-reduced/wp(4).jpg');
+  background-size: 10% 10%;
+}
+
+.wp5 {
+  background: url('../home-display-reduced/wp(5).jpg');
+  background-size: 10% 10%;
+}
+
+.wp6 {
+  background: url('../home-display-reduced/wp(6).jpg');
+  background-size: 10% 10%;
+}
+
+.wp7 {
+  background: url('../home-display-reduced/wp(7).jpg');
+  background-size: 10% 10%;
+}
+
+.wp8 {
+  background: url('../home-display-reduced/wp(8).jpg');
+  background-size: 10% 10%;
+}
+
+.wp9 {
+  background: url('../home-display-reduced/wp(9).jpg');
+  background-size: 10% 10%;
+}
+
+.wp10 {
+  background: url('../home-display-reduced/wp(10).jpg');
+  background-size: 10% 10%;
+}
+
+.wp11 {
+  background: url('../home-display-reduced/wp(11).jpg');
+  background-size: 10% 10%;
+}
+
+.wp12 {
+  background: url('../home-display-reduced/wp(12).jpg');
+  background-size: 10% 10%;
+}
+.wp13 {
+  background: url('../home-display-reduced/wp(13).jpg');
+  background-size: 10% 10%;
+}
+.wp14 {
+  background: url('../home-display-reduced/wp(14).jpg');
+  background-size: 10% 10%;
+}
+.wp15 {
+  background: url('../home-display-reduced/wp(15).jpg');
+  background-size: 10% 10%;
+}
+.wp16 {
+  background: url('../home-display-reduced/wp(16).jpg');
+  background-size: 10% 10%;
+}
+.wp17 {
+  background: url('../home-display-reduced/wp(17).jpg');
+  background-size: 10% 10%;
+}
+.wp18 {
+  background: url('../home-display-reduced/wp(18).jpg');
+  background-size: 10% 10%;
+}
